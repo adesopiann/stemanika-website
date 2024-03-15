@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMKN1Majalengka-Ekstrakurikuler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+    <style>
+        body {
+        background-color: #f5f5f5;
+      }
+
+      .smk{
+        width: 90px;
+        padding-left: 1rem;
+        margin-top: 3px;
+        color: white;
+      }
+
+      .nav-item {
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+
+      .img-fluid {
+        position: absolute;
+      }
+
+      .smk-landing-page {
+        text-size-adjust: 55px;
+        position: relative;
+        text-align: center;
+        padding-top: 200px;
+        width: fit-content;
+        color: white;
+      }
+
+      .landing-page {
+        width: auto;
+        height: 350px;
+        background-image: url(img/top.jpg);
+        background-size: cover;
+      }
+
+      /* Isi */
+      #visi {
+        padding-top: 2rem;
+        width: 100%;
+        height: 250px;
+        background-color: white;
+        border-radius: 10px;
+      }
+
+      #misi {
+        padding-top: 2rem;
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        border-radius: 10px;
+      }
+
+      .top-wrapper {
+        width: 600px;
+      }
+
+      .top-wrapper2 {
+        width: 100%;
+      }
+
+     .list {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .left-list,
+        .right-list {
+            width: 100%;
+            padding: 10px;
+            margin: 5px;
+        }
+
+      /* Akhir isi */
+
+
+      
+      /* FOOTER */
+      footer {
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        position: absolute;
+      }
+
+      #tentangKami {
+        width: fit-content;
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+      }
+
+      #media-social {
+        float: right;
+      }
+
+       .media-icons a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .credit {
+        width: 100%;
+        left: 0;
+        height: 70px;
+        background-color: #F8DE22;
+        text-decoration: none;
+        margin-top: 2-px;
+
+      }
+
+      .credit a {
+        text-decoration: none;
+      }
+
+      .credit a:hover {
+        color: black;
+      }
+      /* AKHIR FOOTER */
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black bg-opacity-75 navbar-dark fixed-top" id="navbar">
+        <div class="container">
+            <img src="img/logo1.png" alt="Logo" width="45" class="d-inline-block align-text-top mt-0">
+            <h5 class="smk ">SMKN 1 MAJALENGKA</h5>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav-underline ms-auto fw-semibold" id="menu">
+              <li class="nav-item">
+                <a class="nav-link text-light " aria-current="page" href="home.html">HOME</a>
+              </li>
+              <div class="dropdown-center">
+                <button class="nav-link dropdown-toggle text-light" type="button" data-bs-toggle="dropdown">
+                  PROFIL
+                </button>
+                <ul class="dropdown-menu border border-warning-subtle ">
+                  <li><a class="dropdown-item border-bottom border-warning-subtle fw-semibold" href="kepsek.html">KEPALA SEKOLAH</a></li>
+                  <li><a class="dropdown-item border-bottom border-warning-subtle fw-semibold" href="visiMisi.html">VISI & MISI</a></li>
+                </ul>
+              </div>
+              <div class="dropdown-center">
+                <button class="nav-link dropdown-toggle text-light " type="button" data-bs-toggle="dropdown">
+                  KOMPETENSI KEAHLIAN
+                </button>
+                <ul id="jurusan" class="dropdown-menu border border-warning-subtle" >
+                  <li><a class="dropdown-item border-bottom border-warning-subtle fw-semibold" href="dpib.html">DESAIN PERMODELAN DAN INFORMASI BANGUNAN</a></li>
+                  <li><a class="dropdown-item border-bottom border-warning-subtle fw-semibold mt-3" href="titl.html">TEKNIK INSTALASI TENAGA LISTRIK</a></li>
+                  <li><a class="dropdown-item border-bottom border-warning-subtle fw-semibold mt-3" href="mesin.html">TEKNIK PEMESINAN</a></li>
+                  <li><a class="dropdown-item border-bottom border-warning-subtle fw-semibold mt-3" href="tkr.html">TEKNIK KENDARAAN RINGAN OTOMOTIF</a></li>
+                  <li><a class="dropdown-item border-bottom border-warning-subtle fw-semibold mt-3" href="tsm.html">TEKNIK DAN BISNIS SEPEDA MOTOR</a></li>
+                  <li><a class="dropdown-item border-bottom border-warning-subtle fw-semibold mt-3" href="rpl.html">REKAYASA PERANGKAT LUNAK</a></li>
+                  <li><a class="dropdown-item border-bottom border-warning-subtle fw-semibold mt-3" href="tjkt.html">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="berita.html">BERITA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="ekskul.html">EKSTRAKURIKULER</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="landing-page">
+        <div class="cover bg-black bg-opacity-50 " style="height: 350px;">
+            <center>
+                <h1 class="smk-landing-page fw-semibold" style="font-family: Verdana;">VISI & MISI</h1>
+            </center>
+        </div>
+    </section>
+
+    <div class="container mt-4 mb-4 shadow" id="visi">
+        <center>
+        <div class="top-wrapper">
+            <h4 class="fw-bold">VISI SMKN 1 MAJALENGKA</h4>
+            <h5 class="mt-4"><i>“Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestiae, dolorum? Eaque dolorum, minus, inventore provident sint nemo autem
+                    corporis officiis ex quam quae iure exercitationem ut! Non quisquam quidem tenetur?”</i></h5>
+        </div>
+        </center>
+    </div>
+    <div class="container mt-4 mb-4 shadow" id="misi">
+        <div class="top-wrapper2 fw-semibold">
+            <center>
+            <div class="title">
+            <h4 class="fw-bold">MISI SMKN 1 MAJALENGKA</h4>
+            </div>
+            </center>
+            <div class="list">
+                <div class="left-list">
+                    <ul type="disc">
+                            <li style="padding-bottom: 3rem;">Meningkatkan mutu pendidikan yang mengintegrasikan system nilai agama dan budaya dengan ilmu pengetahuan dan teknologi.</li>
+                            <li style="padding-bottom: 3rem;">Menanamkan kedisiplinan melalui budaya bersih, budaya tertib, dan budaya kerja.</li>
+                            <li>Menumbuhkan budaya gemar membaca dengan program literasi yang didukung perpustakaan yang lengkap dan berkualitas.</li>
+                    </ul>
+                </div>
+
+                <div class="right-list">
+                    <ul type="disc">
+                        <li style="padding-bottom: 21px;">Mengembangkan komponen seluruh sekolah secara optimal baik dalam bidang akademis maupun non akademis dan berwawasan lingkungan sehingga mampu bersaing secara global.</li>
+                        <li style="padding-bottom: 28px;">Mengedepankan pendidikan karakter dengan meningkatkan budi pekerti serta meningkatkan jiwa nasionalisme yang kuat dan bermartabat.</li>
+                        <li>Menciptakan lingkungan sekolah yang kondusif, aman, nyaman, tentram, damai, tertib, disiplin, sehat kekeluargaan dan penuh tanggung jawab.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="">
+      <section>
+      <div class="container mb-5 bottom-0">
+        <div class="row fs-6 justify-content-between">
+          <div class="col-md-6 text-lg-start">
+            <h4 class="fs-5 mt-3" id="tentangKami">TENTANG KAMI</h4>
+            <i class="bi bi-geo-alt fw-semibold">     Alamat: Jalan Raya Tonjong-Pinangraja No. 55 Majalengka</i><br>
+            <i class="bi bi-telephone fw-semibold">   Telp: (0233) 282913</i><br>
+            <i class="bi bi-envelope fw-semibold">    Email: info@smkn1majalengka.sch.id</i>
+          </div>
+          <div class="col-md-6 text-lg-start">
+            <h4 class="fs-5 mt-3" id="tentangKami">FOLLOW</h4>
+            <div class="media-icons">
+              <a href="https://www.youtube.com/@SMKNegeri1Majalengka/"><i class="bi bi-youtube p-1 fs-5"></i></a>
+              <a href="https://www.instagram.com/osis.smkn1majalengka/"><i class="bi bi-instagram p-1 fs-5"></i></a>
+              <i class="bi bi-facebook p-1"></i>
+              <i class="bi bi-twitter-x p-1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <div class="credit text-center">
+            <p class="text-dark mb-0 fw-bold pt-2">COPYRIGHTS © 2023 - SMKN 1 MAJALENGKA.</p>
+            <p class="text-white fw-semibold">Created By | <a href="https://www.instagram.com/adespiann/"><i class="bi bi-instagram p-1 text-white"></i></a> <a href="https://www.instagram.com/adespiann/" class="text-white fw-bold">Ade Sopian</a></p>
+      </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
